@@ -173,6 +173,7 @@ In the screenshot:
 * The current temperature is 28.05°C.
 * The weather condition is "Haze."
 * The line chart below shows average, maximum, and minimum temperature trends over time.
+![JavaScript profile web application](./delhi.jpeg "JavaScript profile web application")
 
 **Prerequisites**
 To run this project locally or in your environment, ensure you have:
