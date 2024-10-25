@@ -132,4 +132,82 @@ You can easily customize the system by:
 This project is open-source and available for modification or use under the terms of the MIT License.
 * With this setup, you can monitor weather conditions and receive timely alerts for any unusual temperature spikes in the listed cities
 
+# Frontend
+
+* As soon as we run the server, we can see the following page:
+![JavaScript profile web application](./front.jpeg "JavaScript profile web application")
+* This project is a Weather Monitoring Dashboard that displays real-time weather information and temperature trends for selected cities. The dashboard fetches data from a weather API, processes it, and presents it visually using charts.
+
+**Features**
+* City selection: Users can select a city from the dropdown to see the current temperature and weather condition.
+* Temperature trends: Displays average, maximum, and minimum temperature trends over time in a line chart.
+* Real-time updates: Fetches and displays the current temperature and weather condition for the selected city.
+* Unit conversion: Provides a button to convert the temperature from Celsius to Fahrenheit.
+
+**Key Components**
+1. City Dropdown: Allows the user to select a city from a predefined list.
+1. Current Weather Information:
+* Displays the current temperature and weather condition (e.g., haze, clear, rain).
+* Updates based on the selected city.
+1. Temperature Trends Chart:
+* Line chart showing the trend of average, maximum, and minimum temperatures for the selected city over time.
+* Data is presented visually with a legend showing which line represents which temperature metric.
+
+**Technology Stack**
+* Frontend: The dashboard is likely built using HTML, CSS, and JavaScript.
+* The line chart is probably generated using a JavaScript charting library such as Chart.js or D3.js.
+* Backend: The data is fetched from a backend API that connects to the OpenWeatherMap API or another weather service to retrieve real-time data.
+* API: Weather data is retrieved from an external weather service using an API (e.g., OpenWeatherMap API).
+**How to Use**
+1. Select a city from the dropdown at the top of the dashboard.
+1. The current temperature and weather condition will be displayed below the dropdown.
+1. View the temperature trends in the line chart:
+* The x-axis represents time.
+* The y-axis represents temperature in degrees Celsius (default).
+1. Click on the "Convert to Fahrenheit" button to toggle between Celsius and Fahrenheit.
+
+**Example Display**
+In the screenshot:
+
+* The selected city is Delhi.
+* The current temperature is 28.05°C.
+* The weather condition is "Haze."
+* The line chart below shows average, maximum, and minimum temperature trends over time.
+
+**Prerequisites**
+To run this project locally or in your environment, ensure you have:
+
+* Node.js and npm installed (for backend services if applicable).
+* API key from OpenWeatherMap or another weather API service.
+
+**Setup and Installation**
+1. Clone the Repository
+```javascript
+git clone https://github.com/your-username/weather-monitoring-dashboard.git
+cd weather-monitoring-dashboard
+```
+1. Install Dependencies
+If using a Node.js backend for fetching weather data:
+```javascript
+npm install
+```
+1. Create an `.env` file
+Create a .env file in the root directory with your weather API credentials:
+```javascript
+OPENWEATHER_API_KEY=your_api_key_here
+```
+1. Run the Application
+To start the server (if applicable):
+```javascript
+npm start
+```
+* To view the dashboard, open index.html in your browser.
+
+**Conclusion**
+This Weather Monitoring Dashboard provides a real-time, visual representation of weather conditions and temperature trends for various cities. The ability to select cities and toggle between Celsius and Fahrenheit makes it interactive and user-friendly. The line chart helps users easily understand temperature patterns over time.
+
+
+
+
+
 
